@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Level-03</title>
+</head>
+    <table border="black">
+        <caption><b>Food Meun</b></caption>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th> Price </th>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+            <tr> 
+                <td>Frooti</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Cold drink</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Water Bottle</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Juice</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Aloo chips</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Coffe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Tea</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+    </table>
+      
+
+    <table border="black">
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>PKR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <caption>Food Meun</caption>
+        <tbody>
+            <tr> 
+                <td>Frooti</td>
+                <td>50</td>
+                <td>0.18</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>50</td>
+                <td>0.18</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>30</td>
+                <td>0.11</td>
+            </tr>
+            <tr>
+                <td>Cold drink</td>
+                <td>80</td>
+                <TD>0.28</TD>
+            </tr>
+            <tr>
+                <td>Water Bottle</td>
+                <td>60</td>
+                <td>0.21</td>
+            </tr>
+            <tr>
+                <td>Juice</td>
+                <td>70</td>
+                <td>0.25</td>
+            </tr>
+            <tr>
+                <td>Aloo chips</td>
+                <td>100</td>
+                <td>0.36</td>
+            </tr>
+            <tr>
+                <td>Coffe</td>
+                <td>80</td>
+                <td>0.28</td>
+            </tr>
+            <tr>
+                <td>Tea</td>
+                <td>60</td>
+                <td>0.21</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="/action">
+        Normal input
+        <input>
+        <br>
+        username
+        <input type="text" placeholder="Enter username">
+        <br>
+        password
+        <input type="password" placeholder="Enter password">
+        <br>
+        number
+        <input type="number">
+        <br>
+        time 
+        <input type="time">
+        <br>
+        color
+        <input type="color">
+
+        <br>
+        email
+        <input type="email">
+        <br>
+        <div>
+        <label for="Username">Username</label> 
+        <input type="text" placeholder="Type your username" id="Username"> 
+        </div>
+        <button type="submit">Submit</button>
+        <br> 
+        <button type="button">Hello</button>
+        <br>
+        <button type="reset">reset</button>
+        <br>
+        <input type="submit" value="click me">    
+    </form>
+    <br> 
+    <from action="/action">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+        <button>Submit</button>
+    </from>   
+    <form action="/action">
+        <h4>List of fruit</h4>
+        <input type="radio" name="fruit" id="apple" value="Apple">
+        <label for="apple">Apple</label>
+        <br>
+        <input type="radio" name="fruit" id="orange" value="orange">
+        <label for="orange">orange</label>
+        <br>
+        <input type="radio" name="fruit" id="Mango" value="Mango">
+        <label for="Mango">Mango</label>
+        <br>
+        <button>Submit</button>
+        <div>
+            choose your subjects
+            <br>
+            <input type="checkbox" id="math" name="sub" value="math">
+            <label for="math">Math</label>
+            <br>
+            <input type="checkbox" id="Science" name="sub" value="Sci">
+            <label for="Science">Science</label>
+            <br>
+            <input type="checkbox" id="English" name="sub" value="Eng">
+            <label for="English">English</label>
+            <br>
+            <input type="checkbox" id="Urdu" name="sub" value="Urdu">
+            <label for="Urdu">Urdu</label>
+            <br>
+            <input type="checkbox" id="Computer" name="sub" value="Comp">
+            <label for="Computer">Computer</label>
+            <br>
+            <button>Submit</button>
+        </div>
+        <br>
+        <div>
+            choose your profession 
+            <select name="profession" id="profession">
+                <option>Select your option </option>
+                <option value="stu">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+            <br>
+            <button>Submit</button>
+        </div>
+        <div>
+        <label for="vol">Select your volume</label>
+       <input type="range" id="vol" min="0" max="100" name="vol" step="1" value="100"> 
+       <button>submit</button>
+       </div>
+       <label for="feedback">Please give me your valuable feedback </label>
+       <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+       <button>Submit</button>
+    </form>
+</body>
+</html>
